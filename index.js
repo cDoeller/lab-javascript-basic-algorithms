@@ -32,6 +32,15 @@ for (let i = 0; i < hacker1.length; i++){
 
 console.log (hacker1Spaces.toUpperCase());
 
+// trying another way
+
+let hacker1SpacesV2 = "";
+
+for (let i = 0; i < hacker1.length; i++){
+    hacker1SpacesV2 += hacker1 [i] + " ";
+}
+console.log (hacker1SpacesV2.slice(0,-1).toUpperCase());
+
 
 // reverse
 
